@@ -1,7 +1,6 @@
-package yaosupdater.utils;
+package org.yaosupdater.utils;
 
 import java.io.BufferedReader;
-import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,16 +8,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import org.apache.http.impl.conn.tsccm.WaitingThread;
-
-import yaosupdater.ui.Principal;
-
+import org.yaosupdater.ui.Principal;
 
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;

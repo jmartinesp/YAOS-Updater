@@ -1,4 +1,4 @@
-package yaosupdater.preferences;
+package org.yaosupdater.preferences;
 
 public class Configuracion {
 

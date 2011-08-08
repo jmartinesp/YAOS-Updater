@@ -1,4 +1,4 @@
-package yaosupdater.utils;
+package org.yaosupdater.utils;
 
 public class Update implements Comparable {
 

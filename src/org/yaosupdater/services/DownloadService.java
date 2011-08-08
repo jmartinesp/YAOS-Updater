@@ -1,4 +1,4 @@
-package yaosupdater.services;
+package org.yaosupdater.services;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,8 +12,8 @@ import java.net.URLConnection;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Query;
-import android.app.Service;
 import android.app.DownloadManager.Request;
+import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

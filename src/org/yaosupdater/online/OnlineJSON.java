@@ -1,30 +1,22 @@
-package yaosupdater.online;
+package org.yaosupdater.online;
 
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.concurrent.TimeoutException;
-import java.io.*;
-
-import android.widget.Toast;
-
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONTokener;
+import org.yaosupdater.preferences.Configuracion;
+import org.yaosupdater.ui.Principal;
+import org.yaosupdater.utils.Parche;
+import org.yaosupdater.utils.Update;
 
-import yaosupdater.preferences.Configuracion;
-import yaosupdater.ui.Principal;
-import yaosupdater.utils.Parche;
-import yaosupdater.utils.Update;
-
-import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 

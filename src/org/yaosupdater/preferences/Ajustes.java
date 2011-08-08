@@ -1,13 +1,14 @@
-package yaosupdater.preferences;
+package org.yaosupdater.preferences;
 
-import miuies.updater.R;
+import org.yaosupdater.R;
+
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceActivity;
 import android.util.Log;
 
 public class Ajustes extends PreferenceActivity{

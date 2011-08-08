@@ -1,6 +1,5 @@
-package yaosupdater.utils;
+package org.yaosupdater.utils;
 
-import android.util.Log;
 
 public class Parche {
 
