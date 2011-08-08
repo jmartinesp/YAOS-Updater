@@ -1,4 +1,4 @@
-package miuies.updater.utils;
+package yaosupdater.utils;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -11,7 +11,8 @@ import java.io.InputStreamReader;
 
 import org.apache.http.impl.conn.tsccm.WaitingThread;
 
-import miuies.updater.ui.Principal;
+import yaosupdater.ui.Principal;
+
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;

@@ -1,4 +1,4 @@
-package miuies.updater.services;
+package yaosupdater.services;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

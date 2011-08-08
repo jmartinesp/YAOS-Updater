@@ -1,4 +1,4 @@
-package miuies.updater.utils;
+package yaosupdater.utils;
 
 public class Update implements Comparable {
 

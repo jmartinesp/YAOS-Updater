@@ -17,13 +17,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:screenOrientation="portrait" android:name="miuies.updater.preferences.Ajustes">
+        <activity android:screenOrientation="portrait" android:name="yaosupdater.preferences.Ajustes">
         	<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-		<service android:name="miuies.updater.services.DownloadService"
+		<service android:name="yaosupdater.services.DownloadService"
                  android:process="miuies.updater.services.DownloadService">
             <intent-filter>
                 <action android:name="DownloadManager.ACTION_DOWNLOAD_COMPLETE"/>

@@ -1,19 +1,20 @@
-package miuies.updater.ui;
+package yaosupdater.ui;
 
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
 
-import miuies.updater.online.OnlineJSON;
-import miuies.updater.preferences.Ajustes;
-import miuies.updater.preferences.Configuracion;
-import miuies.updater.utils.ApplyUpdate;
-import miuies.updater.utils.Parche;
-import miuies.updater.utils.Update;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import yaosupdater.online.OnlineJSON;
+import yaosupdater.preferences.Ajustes;
+import yaosupdater.preferences.Configuracion;
+import yaosupdater.utils.ApplyUpdate;
+import yaosupdater.utils.Parche;
+import yaosupdater.utils.Update;
 
 import miuies.updater.R;
 import android.app.Activity;

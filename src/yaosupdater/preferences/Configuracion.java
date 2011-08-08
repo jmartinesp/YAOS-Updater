@@ -1,4 +1,4 @@
-package miuies.updater.preferences;
+package yaosupdater.preferences;
 
 public class Configuracion {
 

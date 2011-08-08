@@ -1,4 +1,4 @@
-package miuies.updater.preferences;
+package yaosupdater.preferences;
 
 import miuies.updater.R;
 import android.content.SharedPreferences;

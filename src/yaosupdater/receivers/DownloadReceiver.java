@@ -1,4 +1,4 @@
-package miuies.updater.receivers;
+package yaosupdater.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package miuies.updater.online;
+package yaosupdater.online;
 
 
 import java.io.IOException;
@@ -13,15 +13,16 @@ import java.io.*;
 
 import android.widget.Toast;
 
-import miuies.updater.preferences.Configuracion;
-import miuies.updater.ui.Principal;
-import miuies.updater.utils.Parche;
-import miuies.updater.utils.Update;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
+
+import yaosupdater.preferences.Configuracion;
+import yaosupdater.ui.Principal;
+import yaosupdater.utils.Parche;
+import yaosupdater.utils.Update;
 
 import android.os.Handler;
 import android.os.Looper;
