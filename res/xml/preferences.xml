@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="Ajustes">
+    <CheckBoxPreference android:title="Comprobar al abrir" android:key="check_init" android:summary="Se buscarán actualizaciones al iniciar la aplicación"></CheckBoxPreference>
+    <CheckBoxPreference android:title="Comprobar MD5" android:summary="Forzar la comprobación del MD5, se aconseja para evitar errores en el flasheo." android:key="force_md5"/>
+  </PreferenceCategory>
+</PreferenceScreen>

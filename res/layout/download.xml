@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dip"
+  android:background="#fff">
+    <TextView android:id="@+id/descargando" android:text="Descargando archivo" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Nueva versión: " android:id="@+id/nombre" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Url: " android:id="@+id/url" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Guardado en: " android:id="@+id/location" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ProgressBar android:id="@+id/progressBar" style="?android:attr/progressBarStyleHorizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:drawingCacheQuality="low" android:max="100" android:progress="1"></ProgressBar>
+    <TextView android:text="0%" android:id="@+id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Tiempo restante: " android:id="@+id/eta" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Descargado: " android:id="@+id/downloaded" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+    
+    
+</LinearLayout>
